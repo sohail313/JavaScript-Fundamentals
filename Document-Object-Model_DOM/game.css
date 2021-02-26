@@ -1,0 +1,15 @@
+/* section.gameboard .mytab{
+    background-color:red;
+    border: 2px solid red;
+} */
+table{
+    margin-top:3rem;
+}
+
+td{
+    height:150px;
+    width:150px;
+    text-align:center;
+    font-size: 100px;
+    border: 5px solid black;
+}
