@@ -36,7 +36,7 @@
 //     function ninja(name = "Ryu",color = "White",age = "26"){
 //         console.log(" My name is "+ name +" Belt color is " +color +" And age is " + age);
 //     }
-// //    ninja("Swag","black",22);
+// //    ninja("Mark","black",22);
 // ninja();
 // }
 
@@ -70,12 +70,12 @@
 //     function logName(name,age){
 //         console.log(`My name is ${name} Age is ${98%77}`);
 //     }
-//     logName("swag",98);
+//     logName("Sam",98);
 // }
 
 //NEW STRING METHODS (ES6)
 
-window.onload = function(){
+// window.onload = function(){
     // repeat
     // var str = `hello!   `
     // console.log(str.repeat(5));
@@ -97,7 +97,37 @@ window.onload = function(){
     // console.log(a.endsWith('Hey',a.length-6));
 
     // includes
-    var variable = `Hey Everyone today is my Birthday!`;
-    console.log(variable.includes("day"));
+//     var variable = `Hey Everyone today is my Birthday!`;
+//     console.log(variable.includes("day"));
+
+// }
+
+//OBJECTS LITERAL ENHANCEMENT
+
+// window.onload = function(){
+//     var name = 'Ninja';
+//     var belt = 'Black';
+
+//     var ninja = {
+//         name,belt,
+//         chop(x){
+//             console.log(`You cutted Sakura ${x} times`);
+//         }
+//     };
+//     console.log(ninja.chop(100));
+// }
+
+//ARRAY FUNCTION (FAT ARROWS)
+
+window.onload = function(){
+    //Old-school way
+    // var greet = function(){
+    //     console.log('Heyyyyyy');
+    // }
+    // greet();
+
+    //New dawn
+    var greet = (name) => console.log(`${name}...How you doing ?`);
+    greet('Leina');
 
 }
