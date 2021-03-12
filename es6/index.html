@@ -7,7 +7,17 @@
     <title>ES6</title>
 </head>
 <body>
-
+    
+        
+        <form action="/index.html" method="POST" onsubmit="return checkCheckBox(this)">
+        
+        <!--Enter your form contents here-->
+        
+        <b>By submitting, I agree that all info entered was done accurately & truthfully.</b><br />
+        I accept: <input type="checkbox" value="0" name="agree">
+        <input type="submit" value="Submit form">
+        <input type="button" value="Exit" onclick="document.location.href='/index.html';">
+        </form>
     <!-- <ul>
         <li>0</li>
         <li>1</li>

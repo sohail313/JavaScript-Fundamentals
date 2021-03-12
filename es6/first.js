@@ -119,15 +119,27 @@
 
 //ARRAY FUNCTION (FAT ARROWS)
 
-window.onload = function(){
-    //Old-school way
-    // var greet = function(){
-    //     console.log('Heyyyyyy');
-    // }
-    // greet();
+// window.onload = function(){
+//     //Old-school way
+//     // var greet = function(){
+//     //     console.log('Heyyyyyy');
+//     // }
+//     // greet();
 
-    //New dawn
-    var greet = (name) => console.log(`${name}...How you doing ?`);
-    greet('Leina');
+//     //New dawn
+//     var greet = (name) => console.log(`${name}...How you doing ?`);
+//     greet('Leina');
+// }
 
-}
+
+///Description: This is an easy-to-setup form validation script that allows you to specify certain form elements as "required". When the surfer submits the form, the script checks these elements to make sure that are NOT empty before allowing the form submission to proceed. Before, this work was usually handled by a CGI script; this is a JavaScript that essentially performs the same task.
+// function checkCheckBox(f){
+//     if (f.agree.checked == false )
+//     {
+//     alert('Please check the box to continue.');
+//     return false;
+//     }else
+//     return true;
+//     }
+
+

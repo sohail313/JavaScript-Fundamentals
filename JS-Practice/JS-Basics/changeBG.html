@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Change BackGround</title>
+</head>
+<body>
+    <h2>Refresh page to change color!</h2>
+    <script >
+    var changebg = new Array('#ffffe6','#ffccff','#ccddff','#bbff99','#ffb3b3','#ffd699');
+    document.body.style.backgroundColor=changebg[Math.floor(Math.random()*changebg.length)];
+    </script>
+</body>
+</html>
