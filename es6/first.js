@@ -132,14 +132,38 @@
 // }
 
 
-///Description: This is an easy-to-setup form validation script that allows you to specify certain form elements as "required". When the surfer submits the form, the script checks these elements to make sure that are NOT empty before allowing the form submission to proceed. Before, this work was usually handled by a CGI script; this is a JavaScript that essentially performs the same task.
-// function checkCheckBox(f){
-//     if (f.agree.checked == false )
-//     {
-//     alert('Please check the box to continue.');
-//     return false;
-//     }else
-//     return true;
-//     }
+//SETS
+window.onload = function(){
 
+    /*
+    .add
+    .size
+    .delete 
+    .has   
+    
+    */
+    // var names = new Set();
+
+    // names.add("Abbie").add("Bailey").add("Charotte");
+
+    // console.log(names.delete('Bailey'));
+
+    // console.log(names);
+
+    // console.log(names.size);
+
+    // console.log(names.has('Abbie'));
+
+
+    //sets eliminated duplicates unlike arrays... 
+    var nums = [0,1,2,3,4,4,4,5,5,6,6,6,7,8,9,8,7,4,5];
+    console.log(nums.length);
+    var numSet = new Set(nums);
+    console.log(numSet);
+    console.log(numSet.size);
+
+    nums = [...numSet];
+    console.log(nums);
+
+}
 
